@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module './list-item' from '/home/gijs/Projects/hire-forms2/hire-forms-select-list/node_modules/hire-forms-static-list/build'");
