@@ -11,8 +11,10 @@ class SelectList extends React.Component {
 	}
 
 	handleSelectChange(value) {
-		this.props.values.push(value);
-		this.props.onChange(this.props.values);
+		// Use concat instead of push so we don't alter the this.props.
+		let values = this.props.values.concat([value]);
+
+		this.props.onChange(values);
 	}
 
 	render() {
@@ -22,6 +24,7 @@ class SelectList extends React.Component {
 					onChange={this.handleListChange.bind(this)}
 					values={this.props.values} />
 				<Select
+					async={this.props.async}
 					onChange={this.handleSelectChange.bind(this)}
 					options={this.props.options}
 					placeholder={this.props.placeholder} />
