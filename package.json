@@ -32,8 +32,8 @@
     "watchify": "^3.2.2"
   },
   "dependencies": {
+    "hire-forms-list": "^1.0.2",
     "hire-forms-prop-types": "^1.0.0",
-    "hire-forms-select": "^1.0.1",
-    "hire-forms-static-list": "^1.0.1"
+    "hire-forms-select": "^1.0.1"
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import StaticList from "hire-forms-static-list";
+import List from "hire-forms-list";
 import Select from "hire-forms-select";
 
 import {arrayOfStringOrArrayOfKeyValue} from "hire-forms-prop-types";
@@ -18,7 +18,7 @@ class SelectList extends React.Component {
 	render() {
 		return (
 			<div className="hire-select-list">
-				<StaticList
+				<List
 					onChange={this.handleListChange.bind(this)}
 					values={this.props.values} />
 				<Select
