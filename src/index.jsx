@@ -3,7 +3,7 @@ import React from "react";
 import List from "hire-forms-list";
 import Select from "hire-forms-select";
 
-import {arrayOfStringOrArrayOfKeyValue} from "hire-forms-prop-types";
+import {arrayOfStringsOrArrayOfKeyValueMaps} from "hire-forms-prop-types";
 
 class SelectList extends React.Component {
 	handleListChange(values) {
@@ -42,10 +42,10 @@ SelectList.defaultProps = {
 SelectList.propTypes = {
 	async: React.PropTypes.func,
 	onChange: React.PropTypes.func.isRequired,
-	options: arrayOfStringOrArrayOfKeyValue,
+	options: arrayOfStringsOrArrayOfKeyValueMaps,
 	ordered: React.PropTypes.bool,
 	placeholder: React.PropTypes.string,
-	values: arrayOfStringOrArrayOfKeyValue
+	values: arrayOfStringsOrArrayOfKeyValueMaps
 };
 
 export default SelectList;

@@ -771,10 +771,10 @@ SelectList.defaultProps = {
 SelectList.propTypes = {
 	async: _react2["default"].PropTypes.func,
 	onChange: _react2["default"].PropTypes.func.isRequired,
-	options: _hireFormsPropTypes.arrayOfStringOrArrayOfKeyValue,
+	options: _hireFormsPropTypes.arrayOfStringsOrArrayOfKeyValueMaps,
 	ordered: _react2["default"].PropTypes.bool,
 	placeholder: _react2["default"].PropTypes.string,
-	values: _hireFormsPropTypes.arrayOfStringOrArrayOfKeyValue
+	values: _hireFormsPropTypes.arrayOfStringsOrArrayOfKeyValueMaps
 };
 
 exports["default"] = SelectList;
