@@ -1,3 +1,6 @@
+### v1.0.5	(2015/8/7 16:25)
+* Update propType name from new hire-forms-prop-types
+
 ### v1.0.4	(2015/7/30 11:37)
 * New build
 * Bump everything
