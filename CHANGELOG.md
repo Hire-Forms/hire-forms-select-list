@@ -1,3 +1,7 @@
+### v1.0.6	(2015/8/26 12:47)
+* Bump hire-forms-select
+* Add local derequire
+
 ### v1.0.5	(2015/8/7 16:25)
 * Update propType name from new hire-forms-prop-types
 
