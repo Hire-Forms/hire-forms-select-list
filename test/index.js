@@ -18,11 +18,9 @@ let handleChange = (response) => {
 
 let setupComponent = function(component) {
 	return function() {
-
 		let renderedComponent = TestUtils.renderIntoDocument(
 			component
 		);
-
 		list = TestUtils.findRenderedDOMComponentWithClass(
 			renderedComponent,
 			"hire-list"
