@@ -5,7 +5,7 @@ node_modules/.bin/watchify src/index.jsx \
   --extension=.jsx \
   --external classnames \
   --external react \
-  --outfile 'derequire > build/index.js' \
+  --outfile build/index.js \
   --standalone HireFormsSelectList \
   --transform [ babelify --plugins object-assign ] \
   --verbose
