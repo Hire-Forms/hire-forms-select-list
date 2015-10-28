@@ -1,3 +1,6 @@
+### v1.0.7	(2015/10/28 12:58)
+
+
 ### v1.0.6	(2015/8/26 12:47)
 * Bump hire-forms-select
 * Add local derequire
