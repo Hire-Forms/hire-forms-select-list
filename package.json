@@ -41,7 +41,7 @@
     "watchify": "^3.3.1"
   },
   "dependencies": {
-    "hire-forms-list": "https://github.com/Hire-Forms/hire-forms-list.git#react-0.14",
+    "hire-forms-list": "^3.0.0",
     "hire-forms-prop-types": "^2.0.1",
     "hire-forms-select": "^2.0.0"
   }

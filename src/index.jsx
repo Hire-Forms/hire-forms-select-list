@@ -1,8 +1,6 @@
 import React from "react";
-
 import List from "hire-forms-list";
 import Select from "hire-forms-select";
-
 import {arrayOfStringsOrArrayOfKeyValueMaps} from "hire-forms-prop-types";
 
 class SelectList extends React.Component {
