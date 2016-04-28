@@ -1,3 +1,8 @@
+### v2.0.0	(2016/4/28 15:16)
+* Bump to React 15.0.1
+* Get deps via version
+* branch for react 0.14
+
 ### v1.0.7	(2015/10/28 12:58)
 
 
